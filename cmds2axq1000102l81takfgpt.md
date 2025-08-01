@@ -108,3 +108,6 @@ Authoritative DNS → `www.example.com` → `93.184.216.34`
 * IP가 바뀌어도 도메인만 유지하면 서비스 연결 가능
     
 * 전 세계적으로 분산돼 있어 빠르고 안정적인 구조
+    
+
+이미지 출처 : [https://www.geeksforgeeks.org/computer-networks/difference-between-dns-and-dhcp/](https://www.geeksforgeeks.org/computer-networks/difference-between-dns-and-dhcp/)
