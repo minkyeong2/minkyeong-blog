@@ -9,7 +9,7 @@ tags: metrics, springboot, micrometer
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754389827631/a5c6006c-0eba-413d-a21f-2b336fba0454.png align="center")
 
-**마이크로미터(Micrometer)**는 JVM 기반 애플리케이션의 **메트릭(Metric)**을 수집하고, 다양한 모니터링 시스템으로 전송할 수 있도록 도와주는 애플리케이션 계측 라이브러리입니다.
+\*\*마이크로미터(Micrometer)\*\*는 JVM 기반 애플리케이션의 \*\*메트릭(Metric)\*\*을 수집하고, 다양한 모니터링 시스템으로 전송할 수 있도록 도와주는 애플리케이션 계측 라이브러리입니다.
 
 주로 **Spring Boot**와 함께 사용되며, 애플리케이션의 성능, 상태, 리소스 사용량 등을 실시간으로 관측할 수 있게 해줍니다.
 
@@ -55,7 +55,7 @@ Spring Boot Actuator는 Micrometer를 기본 내장하고 있으며, 설정만�
 
 metrics 엔드포인트를 사용하면 기본으로 제공되는 메트릭들을 확인할 수 있습니다.
 
-![image.png](attachment:7c12dd52-fbd2-4564-aa4d-a8613c5d7249:image.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754389941575/03792db9-a942-42e0-a0d0-560a1d9e81c1.png align="center")
 
 ---
 
