@@ -41,8 +41,7 @@ Java의 창시자 제임스 고슬링(James Gosling)은 다음과 같이 말했�
 Java는 \*\*문자열 리터럴을 상수 풀(String Pool)\*\*에 저장하고 공유합니다.
 
 ```java
-java
-복사편집
+
 String s1 = "Hello";
 String s2 = "Hello";
 
@@ -65,8 +64,7 @@ System.out.println(s1 == s2); // true
 예: 사용자 이름, 비밀번호, DB 연결 정보 등
 
 ```java
-java
-복사편집
+
 void criticalMethod(String userName) {
     if (!isAlphaNumeric(userName)) {
         throw new SecurityException();
@@ -191,8 +189,7 @@ String s2 = s1.intern();
 ### 예제
 
 ```java
-java
-복사편집
+
 String a = "hello";                 // 상수 풀
 String b = new String("hello");    // Heap
 String c = b.intern();             // 상수 풀 참조
