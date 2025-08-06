@@ -7,7 +7,7 @@ tags: java, string
 
 ---
 
-Java에서 `String`은 **불변 객체(Immutable Object)**입니다.
+Java에서 `String`은 \*\*불변 객체(Immutable Object)\*\*입니다.
 
 즉, 한 번 생성된 `String` 객체는 내부 상태를 변경할 수 없습니다.
 
@@ -38,7 +38,7 @@ Java의 창시자 제임스 고슬링(James Gosling)은 다음과 같이 말했�
 
 ### 1\. 문자열 상수 풀(String Pool) 활용
 
-Java는 **문자열 리터럴을 상수 풀(String Pool)**에 저장하고 공유합니다.
+Java는 \*\*문자열 리터럴을 상수 풀(String Pool)\*\*에 저장하고 공유합니다.
 
 ```java
 java
@@ -54,7 +54,7 @@ System.out.println(s1 == s2); // true
 * `s1`, `s2`는 같은 객체를 참조 → **메모리 절약 + GC 부담 감소**
     
 
-만약 **String이 가변(mutable)**이라면, 하나의 참조가 값을 바꾸면 다른 참조에도 영향을 주기 때문에 풀 공유가 불가능했을 것
+만약 \*\*String이 가변(mutable)\*\*이라면, 하나의 참조가 값을 바꾸면 다른 참조에도 영향을 주기 때문에 풀 공유가 불가능했을 것
 
 ---
 
@@ -121,8 +121,6 @@ void criticalMethod(String userName) {
 ## 리터럴 vs 생성자 방식
 
 `String` 객체는 두 가지 방식으로 생성할 수 있습니다:
-
----
 
 ### 1\. 리터럴 방식
 
@@ -201,7 +199,6 @@ String c = b.intern();             // 상수 풀 참조
 
 System.out.println(a == b); // false
 System.out.println(a == c); // true
-
 ```
 
 * `a`는 상수 풀
