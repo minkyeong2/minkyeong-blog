@@ -206,3 +206,6 @@ System.out.println(a == c); // true
 * `b`는 Heap 객체
     
 * `c`는 `intern()`을 통해 상수 풀 참조 → `a == c` → `true`
+    
+
+참고 자료 :[https://www.baeldung.com/java-string-immutable](https://www.baeldung.com/java-string-immutable)
