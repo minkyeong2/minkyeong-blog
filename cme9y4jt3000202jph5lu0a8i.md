@@ -85,3 +85,5 @@ CPU 사용률 최대화에 목적이 있고, 동시에 실행되는 것처럼 �
 ## 멀티 코어
 
 CPU 칩 안에 여러개의 코어를 넣어 동시에 명령을 처리하는 하드웨어 구조로, 하드웨어 수준에서 병렬처리가 가능하며, 멀티프로세스/ 멀티스레딩 모두 멀티코어 환경에서 효율적으로 동작합니다.
+
+참고 : [https://velog.io/@mij9929/%EB%8B%A8%EC%9D%BC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%80%ED%8B%B0-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%80%ED%8B%B0-%EC%8A%A4%EB%A0%88%EB%94%A9-%EB%A9%80%ED%8B%B0-%EC%BD%94%EC%96%B4](https://velog.io/@mij9929/%EB%8B%A8%EC%9D%BC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%80%ED%8B%B0-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%80%ED%8B%B0-%EC%8A%A4%EB%A0%88%EB%94%A9-%EB%A9%80%ED%8B%B0-%EC%BD%94%EC%96%B4)
